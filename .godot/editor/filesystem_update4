@@ -1,0 +1,10 @@
+res://player.tscn
+res://Main.tscn
+res://Ground.tscn
+res://Coin.tscn
+res://Enemy.tscn
+res://Coin.cs
+res://Enemy.cs
+res://Ground.cs
+res://Main.cs
+res://Player.cs

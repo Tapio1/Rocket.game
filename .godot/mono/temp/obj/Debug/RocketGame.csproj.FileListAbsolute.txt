@@ -1,0 +1,17 @@
+C:\Godot.projects\Rocket.game\.godot\mono\temp\bin\Debug\RocketGame.deps.json
+C:\Godot.projects\Rocket.game\.godot\mono\temp\bin\Debug\RocketGame.runtimeconfig.json
+C:\Godot.projects\Rocket.game\.godot\mono\temp\bin\Debug\RocketGame.dll
+C:\Godot.projects\Rocket.game\.godot\mono\temp\bin\Debug\RocketGame.pdb
+C:\Godot.projects\Rocket.game\.godot\mono\temp\bin\Debug\GodotSharp.dll
+C:\Godot.projects\Rocket.game\.godot\mono\temp\bin\Debug\GodotSharpEditor.dll
+C:\Godot.projects\Rocket.game\.godot\mono\temp\obj\Debug\RocketGame.csproj.AssemblyReference.cache
+C:\Godot.projects\Rocket.game\.godot\mono\temp\obj\Debug\RocketGame.GeneratedMSBuildEditorConfig.editorconfig
+C:\Godot.projects\Rocket.game\.godot\mono\temp\obj\Debug\RocketGame.AssemblyInfoInputs.cache
+C:\Godot.projects\Rocket.game\.godot\mono\temp\obj\Debug\RocketGame.AssemblyInfo.cs
+C:\Godot.projects\Rocket.game\.godot\mono\temp\obj\Debug\RocketGame.csproj.CoreCompileInputs.cache
+C:\Godot.projects\Rocket.game\.godot\mono\temp\obj\Debug\RocketGame.csproj.CopyComplete
+C:\Godot.projects\Rocket.game\.godot\mono\temp\obj\Debug\RocketGame.dll
+C:\Godot.projects\Rocket.game\.godot\mono\temp\obj\Debug\refint\RocketGame.dll
+C:\Godot.projects\Rocket.game\.godot\mono\temp\obj\Debug\RocketGame.pdb
+C:\Godot.projects\Rocket.game\.godot\mono\temp\obj\Debug\RocketGame.genruntimeconfig.cache
+C:\Godot.projects\Rocket.game\.godot\mono\temp\obj\Debug\ref\RocketGame.dll

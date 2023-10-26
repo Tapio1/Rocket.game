@@ -1,0 +1,37 @@
+[gd_scene load_steps=5 format=3 uid="uid://bpd83wac2jxcc"]
+
+[ext_resource type="Script" path="res://Ground.cs" id="1_e1kns"]
+[ext_resource type="Texture2D" uid="uid://dy73pmkvmgk7" path="res://background.png" id="2_tt4wy"]
+
+[sub_resource type="RectangleShape2D" id="RectangleShape2D_ygb1u"]
+size = Vector2(2149.5, 97)
+
+[sub_resource type="RectangleShape2D" id="RectangleShape2D_5ykd8"]
+size = Vector2(2196.5, 161.5)
+
+[node name="Ground" type="Node2D"]
+position = Vector2(0, -8)
+script = ExtResource("1_e1kns")
+
+[node name="Sprite2D(ground)" type="Sprite2D" parent="."]
+position = Vector2(0, -40)
+scale = Vector2(1.12031, 0.0921297)
+texture = ExtResource("2_tt4wy")
+
+[node name="StaticBody2D(ground)" type="StaticBody2D" parent="."]
+
+[node name="CollisionShape2D(ground)" type="CollisionShape2D" parent="StaticBody2D(ground)"]
+position = Vector2(0.25, -40)
+shape = SubResource("RectangleShape2D_ygb1u")
+
+[node name="Sprite2D(ceiling)" type="Sprite2D" parent="."]
+position = Vector2(19, -679)
+scale = Vector2(1.14323, 0.108796)
+texture = ExtResource("2_tt4wy")
+
+[node name="StaticBody2D(ceiling)" type="StaticBody2D" parent="."]
+position = Vector2(-542, -454)
+
+[node name="CollisionShape2D(ceiling)" type="CollisionShape2D" parent="StaticBody2D(ceiling)"]
+position = Vector2(555, -248)
+shape = SubResource("RectangleShape2D_5ykd8")

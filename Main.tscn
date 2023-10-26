@@ -1,0 +1,39 @@
+[gd_scene load_steps=6 format=3 uid="uid://c5nu50jum3r5v"]
+
+[ext_resource type="Script" path="res://Main.cs" id="1_nshkw"]
+[ext_resource type="PackedScene" uid="uid://bfqx7jfnnieeq" path="res://player.tscn" id="2_6ntil"]
+[ext_resource type="PackedScene" uid="uid://bpd83wac2jxcc" path="res://Ground.tscn" id="3_5mp5q"]
+[ext_resource type="PackedScene" uid="uid://f5qq8674fpr" path="res://Coin.tscn" id="4_igjat"]
+[ext_resource type="PackedScene" uid="uid://bvjhohmv8f0bd" path="res://Enemy.tscn" id="5_mklim"]
+
+[node name="Main" type="Node2D"]
+script = ExtResource("1_nshkw")
+coinScene = ExtResource("4_igjat")
+enemyScene = ExtResource("5_mklim")
+
+[node name="Ground" parent="." instance=ExtResource("3_5mp5q")]
+
+[node name="PlayerSpawn" type="Marker2D" parent="."]
+position = Vector2(319, 309)
+
+[node name="Player" parent="." instance=ExtResource("2_6ntil")]
+position = Vector2(-56.1513, 112.03)
+up = -400.0
+
+[node name="GroundSpawn" type="Marker2D" parent="."]
+position = Vector2(577, 671)
+
+[node name="Timer" type="Timer" parent="."]
+
+[node name="CoinSpawnPosition" type="Marker2D" parent="."]
+position = Vector2(1341, 338)
+
+[node name="EnemySpawn" type="Marker2D" parent="."]
+position = Vector2(877, 430)
+
+[node name="TimerEnemy" type="Timer" parent="."]
+wait_time = 1.5
+
+[connection signal="AddScore" from="Player" to="." method="Score"]
+[connection signal="timeout" from="Timer" to="." method="OnCoinSpawn"]
+[connection signal="timeout" from="TimerEnemy" to="." method="OnEnemySpawn"]
